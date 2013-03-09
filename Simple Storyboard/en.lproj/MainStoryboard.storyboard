@@ -31,29 +31,28 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9O-qO-Ed8">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dba-j6-4bg">
-                                <items>
-                                    <barButtonItem title="Back" id="D8J-EH-Ou0">
-                                        <connections>
-                                            <action selector="goBack:" destination="Da6-16-Vlk" id="mIn-B0-nMB"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="M9O-qO-Ed8" firstAttribute="bottom" secondItem="bwU-Pd-iky" secondAttribute="bottom" type="default" id="4GZ-lO-3p5"/>
                             <constraint firstItem="M9O-qO-Ed8" firstAttribute="trailing" secondItem="bwU-Pd-iky" secondAttribute="trailing" type="default" id="62g-Zf-8y6"/>
                             <constraint firstItem="M9O-qO-Ed8" firstAttribute="leading" secondItem="bwU-Pd-iky" secondAttribute="leading" type="default" id="nc1-ac-yXF"/>
-                            <constraint firstItem="Dba-j6-4bg" firstAttribute="bottom" secondItem="bwU-Pd-iky" secondAttribute="bottom" type="default" id="oxX-dg-ITP"/>
                             <constraint firstItem="M9O-qO-Ed8" firstAttribute="top" secondItem="bwU-Pd-iky" secondAttribute="top" type="default" id="pRW-gj-S5D"/>
-                            <constraint firstItem="Dba-j6-4bg" firstAttribute="trailing" secondItem="bwU-Pd-iky" secondAttribute="trailing" type="default" id="roc-gk-BNJ"/>
-                            <constraint firstItem="Dba-j6-4bg" firstAttribute="leading" secondItem="bwU-Pd-iky" secondAttribute="leading" type="default" id="xuI-9t-zzX"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="ONA-1v-Ka5"/>
-                    <navigationItem key="navigationItem" title="Web view" id="PR4-p5-qRf"/>
+                    <navigationItem key="navigationItem" title="Web view" id="PR4-p5-qRf">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="I9e-c9-WxX">
+                            <connections>
+                                <action selector="goBack:" destination="Da6-16-Vlk" id="CfQ-Yj-gPe"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="3z6-RF-eTZ">
+                            <connections>
+                                <action selector="reload:" destination="Da6-16-Vlk" id="2ys-el-st9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="webView" destination="M9O-qO-Ed8" id="cp5-HX-P3e"/>
                     </connections>

@@ -43,10 +43,14 @@
     [webView dealloc];
     [super dealloc];
 }
+
 - (IBAction)goBack:(id)sender {
     if ([webView canGoBack]) {
         [webView goBack];
     }
+}
+- (IBAction)reload:(id)sender {
+    [webView reload];
 }
 
 @end
