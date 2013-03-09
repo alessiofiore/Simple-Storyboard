@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D005A0916E4FC6D007FDB5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D005A0816E4FC6D007FDB5C /* UIKit.framework */; };
+		6D005A0B16E4FC6D007FDB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D005A0A16E4FC6D007FDB5C /* Foundation.framework */; };
+		6D005A0D16E4FC6D007FDB5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D005A0C16E4FC6D007FDB5C /* CoreGraphics.framework */; };
+		6D005A1316E4FC6D007FDB5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D005A1116E4FC6D007FDB5C /* InfoPlist.strings */; };
+		6D005A1516E4FC6D007FDB5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D005A1416E4FC6D007FDB5C /* main.m */; };
+		6D005A1916E4FC6D007FDB5C /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D005A1816E4FC6D007FDB5C /* BIDAppDelegate.m */; };
+		6D005A1B16E4FC6D007FDB5C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D005A1A16E4FC6D007FDB5C /* Default.png */; };
+		6D005A1D16E4FC6D007FDB5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D005A1C16E4FC6D007FDB5C /* Default@2x.png */; };
+		6D005A1F16E4FC6D007FDB5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D005A1E16E4FC6D007FDB5C /* Default-568h@2x.png */; };
+		6D005A2216E4FC6D007FDB5C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D005A2016E4FC6D007FDB5C /* MainStoryboard.storyboard */; };
+		6D39138316E52C5D007A145B /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D39138216E52C5D007A145B /* BIDTaskListController.m */; };
+		6D39138916E554F3007A145B /* BIDTaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D39138816E554F3007A145B /* BIDTaskDetailController.m */; };
+		6D78E3FD16E7F6A800D64DEE /* BIDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78E3FC16E7F6A800D64DEE /* BIDWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D005A0516E4FC6D007FDB5C /* Simple Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D005A0816E4FC6D007FDB5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D005A0A16E4FC6D007FDB5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D005A0C16E4FC6D007FDB5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D005A1016E4FC6D007FDB5C /* Simple Storyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Storyboard-Info.plist"; sourceTree = "<group>"; };
+		6D005A1216E4FC6D007FDB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D005A1416E4FC6D007FDB5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D005A1616E4FC6D007FDB5C /* Simple Storyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Storyboard-Prefix.pch"; sourceTree = "<group>"; };
+		6D005A1716E4FC6D007FDB5C /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		6D005A1816E4FC6D007FDB5C /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		6D005A1A16E4FC6D007FDB5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6D005A1C16E4FC6D007FDB5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6D005A1E16E4FC6D007FDB5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6D005A2116E4FC6D007FDB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6D39138116E52C5D007A145B /* BIDTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskListController.h; sourceTree = "<group>"; };
+		6D39138216E52C5D007A145B /* BIDTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskListController.m; sourceTree = "<group>"; };
+		6D39138716E554F3007A145B /* BIDTaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskDetailController.h; sourceTree = "<group>"; };
+		6D39138816E554F3007A145B /* BIDTaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskDetailController.m; sourceTree = "<group>"; };
+		6D78E3FB16E7F6A800D64DEE /* BIDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDWebViewController.h; sourceTree = "<group>"; };
+		6D78E3FC16E7F6A800D64DEE /* BIDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D005A0216E4FC6D007FDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D005A0916E4FC6D007FDB5C /* UIKit.framework in Frameworks */,
+				6D005A0B16E4FC6D007FDB5C /* Foundation.framework in Frameworks */,
+				6D005A0D16E4FC6D007FDB5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0059FC16E4FC6C007FDB5C = {
+			isa = PBXGroup;
+			children = (
+				6D005A0E16E4FC6D007FDB5C /* Simple Storyboard */,
+				6D005A0716E4FC6D007FDB5C /* Frameworks */,
+				6D005A0616E4FC6D007FDB5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D005A0616E4FC6D007FDB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D005A0516E4FC6D007FDB5C /* Simple Storyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D005A0716E4FC6D007FDB5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D005A0816E4FC6D007FDB5C /* UIKit.framework */,
+				6D005A0A16E4FC6D007FDB5C /* Foundation.framework */,
+				6D005A0C16E4FC6D007FDB5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D005A0E16E4FC6D007FDB5C /* Simple Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6D005A1716E4FC6D007FDB5C /* BIDAppDelegate.h */,
+				6D005A1816E4FC6D007FDB5C /* BIDAppDelegate.m */,
+				6D005A2016E4FC6D007FDB5C /* MainStoryboard.storyboard */,
+				6D39138116E52C5D007A145B /* BIDTaskListController.h */,
+				6D39138216E52C5D007A145B /* BIDTaskListController.m */,
+				6D39138716E554F3007A145B /* BIDTaskDetailController.h */,
+				6D39138816E554F3007A145B /* BIDTaskDetailController.m */,
+				6D78E3FB16E7F6A800D64DEE /* BIDWebViewController.h */,
+				6D78E3FC16E7F6A800D64DEE /* BIDWebViewController.m */,
+				6D005A0F16E4FC6D007FDB5C /* Supporting Files */,
+			);
+			path = "Simple Storyboard";
+			sourceTree = "<group>";
+		};
+		6D005A0F16E4FC6D007FDB5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D005A1016E4FC6D007FDB5C /* Simple Storyboard-Info.plist */,
+				6D005A1116E4FC6D007FDB5C /* InfoPlist.strings */,
+				6D005A1416E4FC6D007FDB5C /* main.m */,
+				6D005A1616E4FC6D007FDB5C /* Simple Storyboard-Prefix.pch */,
+				6D005A1A16E4FC6D007FDB5C /* Default.png */,
+				6D005A1C16E4FC6D007FDB5C /* Default@2x.png */,
+				6D005A1E16E4FC6D007FDB5C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D005A0416E4FC6D007FDB5C /* Simple Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D005A2816E4FC6D007FDB5C /* Build configuration list for PBXNativeTarget "Simple Storyboard" */;
+			buildPhases = (
+				6D005A0116E4FC6D007FDB5C /* Sources */,
+				6D005A0216E4FC6D007FDB5C /* Frameworks */,
+				6D005A0316E4FC6D007FDB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Storyboard";
+			productName = "Simple Storyboard";
+			productReference = 6D005A0516E4FC6D007FDB5C /* Simple Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0059FD16E4FC6C007FDB5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Ericsson;
+			};
+			buildConfigurationList = 6D005A0016E4FC6C007FDB5C /* Build configuration list for PBXProject "Simple Storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D0059FC16E4FC6C007FDB5C;
+			productRefGroup = 6D005A0616E4FC6D007FDB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D005A0416E4FC6D007FDB5C /* Simple Storyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D005A0316E4FC6D007FDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D005A1316E4FC6D007FDB5C /* InfoPlist.strings in Resources */,
+				6D005A1B16E4FC6D007FDB5C /* Default.png in Resources */,
+				6D005A1D16E4FC6D007FDB5C /* Default@2x.png in Resources */,
+				6D005A1F16E4FC6D007FDB5C /* Default-568h@2x.png in Resources */,
+				6D005A2216E4FC6D007FDB5C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D005A0116E4FC6D007FDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D005A1516E4FC6D007FDB5C /* main.m in Sources */,
+				6D005A1916E4FC6D007FDB5C /* BIDAppDelegate.m in Sources */,
+				6D39138316E52C5D007A145B /* BIDTaskListController.m in Sources */,
+				6D39138916E554F3007A145B /* BIDTaskDetailController.m in Sources */,
+				6D78E3FD16E7F6A800D64DEE /* BIDWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D005A1116E4FC6D007FDB5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D005A1216E4FC6D007FDB5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D005A2016E4FC6D007FDB5C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D005A2116E4FC6D007FDB5C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D005A2616E4FC6D007FDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D005A2716E4FC6D007FDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D005A2916E4FC6D007FDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Storyboard/Simple Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Simple Storyboard/Simple Storyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D005A2A16E4FC6D007FDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Storyboard/Simple Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Simple Storyboard/Simple Storyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D005A0016E4FC6C007FDB5C /* Build configuration list for PBXProject "Simple Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D005A2616E4FC6D007FDB5C /* Debug */,
+				6D005A2716E4FC6D007FDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D005A2816E4FC6D007FDB5C /* Build configuration list for PBXNativeTarget "Simple Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D005A2916E4FC6D007FDB5C /* Debug */,
+				6D005A2A16E4FC6D007FDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0059FD16E4FC6C007FDB5C /* Project object */;
+}
