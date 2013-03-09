@@ -19,6 +19,8 @@
 		6D005A2216E4FC6D007FDB5C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D005A2016E4FC6D007FDB5C /* MainStoryboard.storyboard */; };
 		6D39138316E52C5D007A145B /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D39138216E52C5D007A145B /* BIDTaskListController.m */; };
 		6D39138916E554F3007A145B /* BIDTaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D39138816E554F3007A145B /* BIDTaskDetailController.m */; };
+		6D497A7216EB9E7700F1834E /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D497A7116EB9E7700F1834E /* person.png */; };
+		6D497A7816EBA5B800F1834E /* BIDNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D497A7716EBA5B800F1834E /* BIDNewsViewController.m */; };
 		6D78E3FD16E7F6A800D64DEE /* BIDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78E3FC16E7F6A800D64DEE /* BIDWebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,9 @@
 		6D39138216E52C5D007A145B /* BIDTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskListController.m; sourceTree = "<group>"; };
 		6D39138716E554F3007A145B /* BIDTaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskDetailController.h; sourceTree = "<group>"; };
 		6D39138816E554F3007A145B /* BIDTaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskDetailController.m; sourceTree = "<group>"; };
+		6D497A7116EB9E7700F1834E /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		6D497A7616EBA5B800F1834E /* BIDNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDNewsViewController.h; sourceTree = "<group>"; };
+		6D497A7716EBA5B800F1834E /* BIDNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDNewsViewController.m; sourceTree = "<group>"; };
 		6D78E3FB16E7F6A800D64DEE /* BIDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDWebViewController.h; sourceTree = "<group>"; };
 		6D78E3FC16E7F6A800D64DEE /* BIDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +103,8 @@
 				6D39138816E554F3007A145B /* BIDTaskDetailController.m */,
 				6D78E3FB16E7F6A800D64DEE /* BIDWebViewController.h */,
 				6D78E3FC16E7F6A800D64DEE /* BIDWebViewController.m */,
+				6D497A7616EBA5B800F1834E /* BIDNewsViewController.h */,
+				6D497A7716EBA5B800F1834E /* BIDNewsViewController.m */,
 				6D005A0F16E4FC6D007FDB5C /* Supporting Files */,
 			);
 			path = "Simple Storyboard";
@@ -106,6 +113,7 @@
 		6D005A0F16E4FC6D007FDB5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D497A7116EB9E7700F1834E /* person.png */,
 				6D005A1016E4FC6D007FDB5C /* Simple Storyboard-Info.plist */,
 				6D005A1116E4FC6D007FDB5C /* InfoPlist.strings */,
 				6D005A1416E4FC6D007FDB5C /* main.m */,
@@ -174,6 +182,7 @@
 				6D005A1D16E4FC6D007FDB5C /* Default@2x.png in Resources */,
 				6D005A1F16E4FC6D007FDB5C /* Default-568h@2x.png in Resources */,
 				6D005A2216E4FC6D007FDB5C /* MainStoryboard.storyboard in Resources */,
+				6D497A7216EB9E7700F1834E /* person.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +198,7 @@
 				6D39138316E52C5D007A145B /* BIDTaskListController.m in Sources */,
 				6D39138916E554F3007A145B /* BIDTaskDetailController.m in Sources */,
 				6D78E3FD16E7F6A800D64DEE /* BIDWebViewController.m in Sources */,
+				6D497A7816EBA5B800F1834E /* BIDNewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

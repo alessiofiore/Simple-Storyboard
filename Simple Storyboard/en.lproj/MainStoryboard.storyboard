@@ -74,11 +74,12 @@
                     <connections>
                         <segue destination="6qE-Tk-Kjh" kind="relationship" relationship="viewControllers" id="uAE-b7-0bl"/>
                         <segue destination="OKQ-J1-Fk9" kind="relationship" relationship="viewControllers" id="kDH-VO-PPm"/>
+                        <segue destination="KQa-vq-WAS" kind="relationship" relationship="viewControllers" id="FaM-wf-Qw9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WOL-5J-704" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-529" y="-516"/>
+            <point key="canvasLocation" x="-585" y="-248"/>
         </scene>
         <!--Navigation Controller - News-->
         <scene sceneID="kq2-9o-xrh">
@@ -94,7 +95,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccK-9e-9LX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1" y="2"/>
+            <point key="canvasLocation" x="10" y="-248"/>
         </scene>
         <!--Task List Controller-->
         <scene sceneID="JuS-D7-SD1">
@@ -160,7 +161,75 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vxm-ai-lDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="2"/>
+            <point key="canvasLocation" x="466" y="-248"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="yTd-6F-rKE">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="KQa-vq-WAS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="O2n-7U-qv3"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i9l-eQ-cXE">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tPz-ft-rTL" kind="relationship" relationship="rootViewController" id="Ptz-Dw-X1s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZ4-ZJ-wc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="721"/>
+        </scene>
+        <!--News View Controller-->
+        <scene sceneID="NeK-d7-nF7">
+            <objects>
+                <tableViewController id="tPz-ft-rTL" customClass="BIDNewsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HNf-C4-3Wi">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="newsCell" rowHeight="95" id="ObG-VX-sTo">
+                                <rect key="frame" x="0.0" y="22" width="320" height="95"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J4P-wA-Owr">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="49" id="2Uq-47-hSR"/>
+                                                <constraint firstAttribute="height" constant="49" id="GSC-kD-zIb"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JJ-wW-tqm">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="237" id="Tu2-xg-t0b"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="4JJ-wW-tqm" firstAttribute="leading" secondItem="J4P-wA-Owr" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="7xh-TI-6Tb"/>
+                                    <constraint firstItem="4JJ-wW-tqm" firstAttribute="top" secondItem="J4P-wA-Owr" secondAttribute="top" type="default" id="NaO-Se-xSr"/>
+                                    <constraint firstItem="J4P-wA-Owr" firstAttribute="top" secondItem="ObG-VX-sTo" secondAttribute="top" constant="11" id="OsD-9B-XOD"/>
+                                    <constraint firstItem="4JJ-wW-tqm" firstAttribute="leading" secondItem="ObG-VX-sTo" secondAttribute="leading" constant="70" id="emB-pB-YiL"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tPz-ft-rTL" id="dEq-sJ-lMz"/>
+                            <outlet property="delegate" destination="tPz-ft-rTL" id="BB4-rs-GOo"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="thy-fm-0A4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5eR-Ja-5LU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="465" y="721"/>
         </scene>
         <!--Task Detail Controller-->
         <scene sceneID="KRH-y2-5Do">
@@ -193,10 +262,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhd-cy-mFT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="918" y="2"/>
+            <point key="canvasLocation" x="927" y="-248"/>
         </scene>
     </scenes>
     <classes>
+        <class className="BIDNewsViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BIDNewsViewController.h"/>
+        </class>
         <class className="BIDTaskDetailController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BIDTaskDetailController.h"/>
             <relationships>
@@ -209,6 +281,8 @@
         <class className="BIDWebViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BIDWebViewController.h"/>
             <relationships>
+                <relationship kind="action" name="goBack:"/>
+                <relationship kind="action" name="reload:"/>
                 <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
             </relationships>
         </class>
